@@ -18,3 +18,8 @@ const text = document.createTextNode(" — the premier source for web developmen
 linkPara = document.querySelector('p');
 
 linkPara.appendChild(text);
+
+sect.appendChild(linkPara);
+sect.removeChild(linkPara);
+
+para.setAttribute('class','highlight');
