@@ -1,10 +1,10 @@
-const link = document.querrySelector('a');
+const link = document.querySelector('a');
 
 link.textContent = 'Mozilla Developer Network';
 
 link.href = "https://developer.mozilla.org";
 
-const sect = document.querrySelector('section');
+const sect = document.querySelector('section');
 
 const para = document.createElement('p');
  
